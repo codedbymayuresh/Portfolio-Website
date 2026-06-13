@@ -1,0 +1,226 @@
+body{
+    min-height: 100vh;
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(60, 136, 126, 0.25),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at bottom right,
+            rgba(60, 136, 126, 0.25),
+            transparent 30%
+        ),
+        #0B0F19;
+
+    font-family: "Outfit", sans-serif;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+nav div h1 {
+    margin: 2px 8px 2px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #A0AEC0;
+    margin: 2px 8px 2px 8px;
+}
+
+a:hover {
+    color: #3C887E;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 100px 2px 100px;
+}
+
+.nameText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hiIamMayu {
+    transform: scale(170%,170%);
+}
+
+.belowName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: left;
+}
+
+.rightHero{
+    width: 500px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px gray;
+    transition: ease 0.5s;
+}
+
+.rightHero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    transition: ease 0.5s;
+}
+
+.rightHero:hover {
+    border-radius: 80px;
+    box-shadow: 8px 8px 25px gray;
+}
+
+.rightHero img:hover {
+    border-radius: 80px;
+}
+
+.projects {
+    margin: 50px 0 0 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1 {
+    transform: scale(120%);
+}
+
+.allCards{
+    padding: 30px 0 30px 0;
+}
+
+.upper,.lower {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0 40px 0;
+}
+
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: #1A2332;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px rgb(77, 77, 104);
+    transition: ease 0.5s;
+}
+
+.cardUp {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+
+.cardUp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 15px;
+}
+
+
+.cardDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: scale(105%,105%);
+    box-shadow: 15px 15px 30px rgb(77, 77, 104);
+}
+
+
+
+.skillContainer {
+    padding: 40px 100px 40px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1a233229;
+}
+
+.skillist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    color: #A0AEC0;;
+    list-style: circle;
+}
+
+.aboutContainer {
+    text-align: center;
+    color: #A0AEC0;
+    transition: ease 0.5s;
+    background-color: #1a233229;
+}
+
+.aboutContainer:hover{
+    color: #3C887E;
+}
+
+#contactBox {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.icon {
+    padding: 40px 20px 40px 40px;
+}
+
+.cons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactContainer h3 {
+    padding-left: 40px;
+}
+
+.footHeading {
+    padding-top: 200px;
+}
