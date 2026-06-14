@@ -224,3 +224,129 @@ a:hover {
 .footHeading {
     padding-top: 200px;
 }
+
+
+@media (max-width: 1024px) {
+    .hero {
+        padding: 100px 40px;
+    }
+
+    .rightHero {
+        width: 400px;
+        height: 450px;
+    }
+
+    .card {
+        width: 320px;
+        height: 350px;
+    }
+
+    .skillContainer {
+        padding: 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    /* NAV */
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* HERO */
+    .hero {
+        flex-direction: column;
+        padding: 80px 20px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    #hiIamMayu {
+        transform: scale(120%);
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .rightHero {
+        width: 100%;
+        height: 350px;
+    }
+
+    /* PROJECTS */
+    .upper, .lower {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    /* SKILLS */
+    .skillContainer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .skillist {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* ABOUT */
+    .aboutContainer {
+        padding: 20px;
+    }
+
+    /* CONTACT */
+    .contactContainer {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    #contactBox {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cons {
+        margin-right: 0;
+    }
+
+    /* FOOTER */
+    .footHeading {
+        padding-top: 80px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    nav div h1 {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .belowName h1 {
+        font-size: 18px;
+    }
+
+    .heading h1 {
+        transform: scale(100%);
+    }
+}
